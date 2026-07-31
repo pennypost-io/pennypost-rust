@@ -1,0 +1,15 @@
+[package]
+name = "pennypost"
+version = "0.1.0"
+edition = "2021"
+description = "Official Rust SDK for PennyPost, the affordable email API"
+license = "MIT"
+homepage = "https://pennypost.io/docs"
+repository = "https://github.com/pockadot/pennypost-rust"
+
+[dependencies]
+ureq = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "1"
+urlencoding = "2"
